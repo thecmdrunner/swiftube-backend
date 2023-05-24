@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": true, //
+    "outDir": "build",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true, //
+    "strict": false,
+    "target": "es5",
+    "lib": ["ESNext"], //
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}
